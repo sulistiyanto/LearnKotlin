@@ -32,9 +32,10 @@ open class Vehicle(val make: String, val model: String) {
 }
 
 class Car(make: String, model: String, var color : String) : Vehicle(make, model) {
-    
+
     override fun accelerate() {
         println("hi")
+        super.accelerate()
     }
 }
 
